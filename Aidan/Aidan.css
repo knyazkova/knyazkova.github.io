@@ -3,7 +3,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 .block1{
-  height: 1400px;
+  height: 1200px;
   background: linear-gradient(180deg, #113E67 0%, #5681A8 100%);
   -webkit-background-size: cover;
   background-size: cover;
@@ -170,8 +170,7 @@ box-sizing: border-box;
   margin-bottom: 6%;
 }
 .social_media{
-  margin: 0%;
-  margin-bottom: 3%;
+  margin: 2%;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
@@ -186,6 +185,7 @@ box-sizing: border-box;
 }
 .image_media2{
   margin: 0 20vh;
+  margin-bottom: 5%;
 }
 .image_media1{
   padding-left: 60vh;
