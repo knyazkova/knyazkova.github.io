@@ -1,0 +1,377 @@
+body{
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.logo{
+  margin-left: 120px;
+  margin-top: 25px;
+}
+.nav{
+  font-size: 18px;
+  margin-top: -30px;
+  margin-left: 400px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+  color: rgb(73, 75, 77);
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color .2s linear;
+  margin-top: 0%;
+}
+.nav_link:hover {
+  color: rgb(73, 75, 77);
+}
+.nav_link:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(73, 75, 77);
+  opacity: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: opacity .1s linear;
+}
+.nav_link:hover:after,
+.nav_link.active:after{
+  opacity:1;
+}
+.buttons{
+  font-size: 24px;
+}
+.button1, .button2{
+  display: inline-block;
+  margin-top: -7px;
+  background-color: #575445;
+  vertical-align: top;
+  padding: 8px 30px;
+  border: 3px solid #575445;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background .1s linear, color .1s linear;
+  border-radius: 10px;
+}
+.button1:hover, .button2:hover{
+  background-color: #302e27;
+  color:#fff;
+}
+.zero{
+  margin-left: 5px;
+  font-size: 14px;
+  width: 5px;
+  border-radius: 7px;
+  background-color: #fff;
+  color:#575445;
+}
+.image_background_main{
+  width: 101.2%;
+  margin-left: -10px;
+  margin-top: 20px;
+}
+.image_block2{
+  margin-top: 300px;
+  margin-left: -125px;
+  margin-bottom: 100px;
+}
+.subtitle{
+  color: #E6B939;
+  font-size: 19px;
+  margin-left: 120px;
+  margin-top: -402px;
+}
+.title{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 53px;
+  margin-left: 120px;
+}
+.undertitle{
+  color: #fff;
+  font-size: 22px;
+  margin-left: 120px;
+}
+.top_shape{
+  margin-left: 587px;
+  display: flex;
+  margin-top: -800px;
+}
+.bottom_shape{
+  margin-left: 11px;
+  margin-top: 775px;
+}
+.subtitle_block2{
+  color: #E6B939;
+  font-size: 19px;
+  display: flex;
+  margin-top: 46px;
+  margin-left: 816px;
+}
+.title_block2{
+  color: #575445;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  margin-left: 816px;
+}
+.undertitle_block2{
+  color: #575445;
+  margin-left: 816px;
+  font-size: 21px;
+}
+.more{
+  color: #575445;
+  font-size: 20px;
+  margin-left: 800px;
+  margin-top: 20px;
+}
+.rectangle{
+  background:  #FAFAFC;
+  border-radius: 0px;
+  width: 101.2%;
+  height: 900px;
+  margin-top: 300px;
+  margin-left: -10px;
+}
+.subtitle_block3{
+  color: #E6B939;
+  font-size: 19px;
+  margin-top: -800px;
+  display: flex;
+  justify-content: center;
+}
+.title_block3{
+  color: #575445;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+}
+.undertitle_block3{
+  color:#575445;
+  font-size: 21px;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.circle{
+  background-color: #575445;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin-left: 30px;
+}
+.circle_image{
+  margin-top: 18px;
+  margin-left: 18px;
+}
+.row1, .row2{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 50px;
+}
+.title_circle{
+  color: #575445;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+}
+.undertitle_circle{
+  color: #575445;
+  font-size: 21px;
+  text-align: center;
+}
+.group{
+  margin-left: 150px;
+}
+.text_block4{
+  text-align: center;
+  margin-top: 280px;
+}
+.subtitle_block4{
+  color: #E6B939;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.title_block4{
+  color: #575445;
+  font-size: 25px;
+}
+.undertitle_block4{
+  color: #575445;
+  font-size: 21px;
+}
+.text{
+  color: #575445;
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+}
+.text1{
+  background-image: url("../Brend/images/Block4/Accesories\ 1.png");
+  width: 379px;
+  height: 473px;
+}
+.title_picture{
+  font-size: 33px;
+  margin-top: 40px;
+}
+.undertitle_picture{
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.view{
+  font-size: 19px;
+}
+.text2{
+  background-image: url("../Brend/images/Block4/Apparel\ 2.png");
+  width: 379px;
+  height: 473px;
+}
+.text3{
+  background-image: url("../Brend/images/Block4/Climbing\ gear\ 3.png");
+  width: 379px;
+  height: 473px;
+}
+.text4{
+  background-image: url("../Brend/images/Block4/Headwear.png");
+  width: 379px;
+  height: 473px;
+}
+.text5{
+  background-image: url("../Brend/images/Block4/Hiking\ gear.png");
+  width: 379px;
+  height: 473px;
+}
+.text6{
+  background-image: url("../Brend/images/Block4/Jackets.png");
+  width: 379px;
+  height: 473px;
+}
+.link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+  color: #575445;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color .2s linear;
+  margin-top: 0%;
+}
+.link:hover {
+  color: rgb(73, 75, 77);
+}
+.link:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(73, 75, 77);
+  opacity: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: opacity .1s linear;
+}
+.link:hover:after,
+.link.active:after{
+  opacity:1;
+}
+.link_under_pictures{
+  text-align: center;
+  margin-top: 20px;
+}
+.rectangle_green{
+  background:  #375C58;
+  border-radius: 0px;
+  width: 101.2%;
+  height: 393px;
+  margin-top: 169px;
+  margin-left: -10px;
+}
+.text_block5{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.subtitle_block5{
+  font-size: 19px;
+  color: #fff;
+}
+.title_block5{
+  color: #E6B939;
+  font-size: 41px;
+  font-family: 'Roboto', sans-serif;
+}
+.undertitle_block5{
+  color: #fff;
+  font-size: 21px;
+}
+.button3{
+  color: #575445;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #fff;
+  vertical-align: top;
+  padding: 8px 30px;
+  border: 3px solid #fff;
+  text-decoration: none;
+  transition: background .1s linear, color .1s linear;
+  border-radius: 10px;
+}
+.button3:hover{
+  background-color: #e6bf55;
+  color: #fff;
+}
+.header{
+  margin-left: -650px;
+  margin-top: 100px;
+}
+.images_sportsmens{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 136px;
+  margin-right: 136px;
+  margin-top: 20px;
+}
+.signatures{
+  color: #575445;
+  font-size: 22px;
+}
+.signature1{
+  margin-left: 136px;
+  margin-top: 18px;
+}
+.signature2{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 320px;
+  margin-top: -50px;
+}
+.link_block5{
+  text-align: center;
+  margin-top: 40px;
+}
+.block6{
+  margin-top: 180px;
+}
+.text_last{
+  margin-top: -560px;
+}
+.image_last{
+  margin-left: 136px;
+  margin-bottom: 100px;
+}
