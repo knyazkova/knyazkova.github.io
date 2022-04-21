@@ -322,6 +322,9 @@ margin-top: -7px;
     position: absolute;
     right: -114px;
   }
+    .footer{
+    font-size: 10px;
+  }
 }
 @media (max-width:992px){
   .block_image{
@@ -376,5 +379,8 @@ margin-top: -7px;
   .block1_circle_right{
     position: absolute;
     right: -114px;
+  }
+    .footer{
+    font-size: 10px;
   }
 }
