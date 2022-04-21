@@ -1,12 +1,14 @@
 body{
   background-color: #111111;
   color: #fff;
+  min-width: 1200px;
 }
 .container{
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
+/*контент*/
 .header1{
   width: 100%;    
   display: flex;
@@ -32,6 +34,7 @@ body{
   height: 34px;
   color: #fff;
   margin-top: -75px;
+  margin-left: -80px;
 }
 .menu {
   display: flex;
@@ -40,7 +43,8 @@ body{
   font-size: 18px;
   z-index: 1;
   font-family: 'Recursive', sans-serif;
-  margin-left: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-top: -75px;
 }  
 .menu__link {
@@ -62,6 +66,11 @@ body{
   margin-top: 66px;
 }
 .title{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+.title_main{
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
   font-size: 48px;
@@ -95,8 +104,8 @@ body{
   display: flex;
   justify-content: space-between;
   margin-top: 65px;
-  margin-left: 235px;
-  margin-right: 235px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .undertitle_rectangle{
   font-size: 36px;
@@ -126,7 +135,7 @@ body{
 }
 .block1_circle_left{
   position: absolute;
-  right: 88.5%;
+  right: 85%;
   z-index: -1;
 }
 .lines{
@@ -135,11 +144,21 @@ body{
 .block_image{
   margin-top: 160px;
   display: flex;
-  flex-direction: row;
-  margin-left: 155px;
+  justify-content: space-around;
 }
-.image_company{
-  margin-right: 100px;
+.location_link{
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  padding-bottom: 5px;
+  transition: .3s linear;
+}
+.location_link:hover {
+  border-bottom: 3px solid #6C63FF;
+} 
+.location_link.active {
+  border-bottom: 3px solid #6C63FF;
 }
 .first_string{
   margin-top: 25px;
@@ -149,7 +168,6 @@ body{
 .text_image{
   font-family: 'Recursive', sans-serif;
   font-weight: 400;
-  width: 500px;
   margin-left: 28px;
   margin-top: 5px;
 }
@@ -181,9 +199,7 @@ body{
 .block_image_right{
   margin-top: 160px;
   display: flex;
-  justify-content: space-between;
-  margin-left: 155px;
-  margin-right: 155px;
+  justify-content: space-around;
 }
 .container{
   width: 100%;
@@ -191,9 +207,9 @@ body{
   margin: 0 auto;
 }
 .footer{
-width: 100%;    
-display: flex;
-top:0;
+  width: 100%;    
+  display: flex;
+  top:0;
 }
 .line {
   height: 3px;
@@ -275,9 +291,90 @@ margin-top: -7px;
 .text3_footer_down {
   text-decoration: underline;
   margin-left: 450px;
-  margin-top: -40px;
+  margin-top: -38px;
 }  
 .logo_footer1 {
   margin-top: -130px;
   float: right;
+}
+.title{
+  width: 510px;
+}
+.text_string{
+  width: 500px;
+}
+@media (max-width:1200px){
+  .block_image{
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .block_image_right{
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+  }
+  .block1_circle_right{
+    position: absolute;
+    right: -114px;
+  }
+}
+@media (max-width:992px){
+  .block_image{
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;    
+    justify-content: center;
+  }
+  .block_image_right{
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .block1_circle_right{
+    position: absolute;
+    right: -114px;
+  }
+  .text{
+    margin-top: 50px;
+  }
+  .first_string{
+    align-content: center;
+    justify-content: center;
+  }
+  .button{
+    margin-left: 115px;
+  }
+  .footer{
+    font-size: 10px;
+  }
+}
+@media (max-width:660px){
+  .block_image{
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .block_image_right{
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .block1_circle_right{
+    position: absolute;
+    right: -114px;
+  }
 }
