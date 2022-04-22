@@ -330,7 +330,7 @@ margin-top: -7px;
     justify-content: center;
   }
   .button{
-    margin-left: 120px;
+    margin-left: 115px;
   }
     .footer{
     font-size: 10px;
@@ -365,7 +365,7 @@ margin-top: -7px;
     justify-content: center;
   }
   .button{
-    margin-left: 120px;
+    margin-left: 115px;
   }
   .title{
     font-size: 36px;
@@ -375,6 +375,9 @@ margin-top: -7px;
   }
   .text1, .text2, .text3{
     font-size: 16px;
+  }
+  .undertitle_rectangle, .undertitle_big_rectangle{
+    font-size: 32px;
   }
 }
 @media (max-width:660px){
@@ -409,13 +412,16 @@ margin-top: -7px;
     justify-content: center;
   }
   .button{
-    margin-left: 120px;
+    margin-left: 115px;
   }
     .footer{
     font-size: 10px;
   }
   .text1, .text2, .text3{
   font-size: 16px;
+  }
+  .undertitle_rectangle, .undertitle_big_rectangle{
+    font-size: 32px;
   }
 }
 @media (max-width:370px){
@@ -450,12 +456,15 @@ margin-top: -7px;
     justify-content: center;
   }
   .button{
-    margin-left: 120px;
+    margin-left: 115px;
   }
     .footer{
     font-size: 10px;
   }
   .text1, .text2, .text3{
   font-size: 14px;
+  }
+  .undertitle_rectangle, .undertitle_big_rectangle{
+    font-size: 32px;
   }
 }
