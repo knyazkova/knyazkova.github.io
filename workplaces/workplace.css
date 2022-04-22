@@ -308,7 +308,7 @@ margin-top: -7px;
     flex-direction: column;
     text-align: center;
     align-items: center;
-justify-content: center;
+    justify-content: center;
   }
   .block_image_right{
     padding-left: 40px;
@@ -316,11 +316,21 @@ justify-content: center;
     flex-direction: column-reverse;
     text-align: center;
     align-items: center;
-justify-content: center;
+    justify-content: center;
   }
   .block1_circle_right{
     position: absolute;
     right: -114px;
+  }
+  .text{
+    margin-top: 50px;
+  }
+  .first_string{
+    align-content: center;
+    justify-content: center;
+  }
+  .button{
+    margin-left: 115px;
   }
     .footer{
     font-size: 10px;
