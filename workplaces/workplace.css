@@ -376,8 +376,17 @@ margin-top: -7px;
   .text1, .text2, .text3{
     font-size: 16px;
   }
+  .text_information{
+    font-size: 12px;
+  }
   .undertitle_rectangle, .undertitle_big_rectangle{
     font-size: 32px;
+  }
+  .text_locat, .text_tel, .text_mail{
+    font-size: 12px;
+  }
+  .text1_footer_down, .text2_footer_down, .text3_footer_down{
+    font-size: 12px;
   }
 }
 @media (max-width:660px){
@@ -420,8 +429,17 @@ margin-top: -7px;
   .text1, .text2, .text3{
   font-size: 16px;
   }
+  .text_information{
+    font-size: 10px;
+  }
   .undertitle_rectangle, .undertitle_big_rectangle{
     font-size: 32px;
+  }
+  .text_locat, .text_tel, .text_mail{
+    font-size: 10px;
+  }
+  .text1_footer_down, .text2_footer_down, .text3_footer_down{
+    font-size: 10px;
   }
 }
 @media (max-width:370px){
@@ -458,7 +476,7 @@ margin-top: -7px;
   .button{
     margin-left: 115px;
   }
-    .footer{
+  .text_information{
     font-size: 10px;
   }
   .text1, .text2, .text3{
@@ -466,5 +484,11 @@ margin-top: -7px;
   }
   .undertitle_rectangle, .undertitle_big_rectangle{
     font-size: 32px;
+  }
+  .text_locat, .text_tel, .text_mail{
+    font-size: 10px;
+  }
+  .text1_footer_down, .text2_footer_down, .text3_footer_down{
+    font-size: 10px;
   }
 }
