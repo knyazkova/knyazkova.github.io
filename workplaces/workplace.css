@@ -332,7 +332,7 @@ margin-top: -7px;
   .button{
     margin-left: 115px;
   }
-    .footer{
+  .footer{
     font-size: 10px;
   }
 }
@@ -379,14 +379,20 @@ margin-top: -7px;
   .text_information{
     font-size: 12px;
   }
+  .text_information, .text1_footer_down, .text2_footer_down, .text3_footer_down, .text_locat, .text_tel, .text_mail, .text1__links_footer, .text2__links_footer, .text3__links_footer, .text4__links_footer, .text5__links_footer, .text6__links_footer, .text7__links_footer{
+    font-size: 8px;
+  }
+  .text1, .text2, .text3{
+  font-size: 10px;
+  }
   .undertitle_rectangle, .undertitle_big_rectangle{
     font-size: 32px;
   }
-  .text_locat, .text_tel, .text_mail{
-    font-size: 12px;
+  .logo_footer{
+    width: 164px;
   }
-  .text1_footer_down, .text2_footer_down, .text3_footer_down{
-    font-size: 12px;
+  .icon1_inst, .icon2_vk, .icon3_locat, .icon4_tel, .icon5_mail{
+    width: 24px;
   }
 }
 @media (max-width:660px){
@@ -427,68 +433,12 @@ margin-top: -7px;
     font-size: 10px;
   }
   .text1, .text2, .text3{
-  font-size: 16px;
+  font-size: 12px;
   }
-  .text_information{
-    font-size: 10px;
-  }
-  .undertitle_rectangle, .undertitle_big_rectangle{
-    font-size: 32px;
-  }
-  .text_locat, .text_tel, .text_mail{
-    font-size: 10px;
-  }
-  .text1_footer_down, .text2_footer_down, .text3_footer_down{
-    font-size: 10px;
-  }
-}
-@media (max-width:370px){
-  .block_image{
-    padding-left: 40px;
-    padding-right: 40px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  .block_image_right{
-    padding-left: 40px;
-    padding-right: 40px;
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  .block1_circle_right{
-    position: absolute;
-    right: -114px;
-  }
-  .text{
-    margin-top: 50px;
-  }
-  .title{
-   font-size: 36px;
-  }
-  .first_string{
-    align-content: center;
-    justify-content: center;
-  }
-  .button{
-    margin-left: 115px;
-  }
-  .text_information{
-    font-size: 10px;
-  }
-  .text1, .text2, .text3{
-  font-size: 14px;
+  .text_information, .text1_footer_down, .text2_footer_down, .text3_footer_down, .text_locat, .text_tel, .text_mail, .text1__links_footer, .text2__links_footer, .text3__links_footer, .text4__links_footer, .text5__links_footer, .text__links_footer{
+    font-size: 8px;
   }
   .undertitle_rectangle, .undertitle_big_rectangle{
     font-size: 32px;
-  }
-  .text_locat, .text_tel, .text_mail{
-    font-size: 10px;
-  }
-  .text1_footer_down, .text2_footer_down, .text3_footer_down{
-    font-size: 10px;
   }
 }
