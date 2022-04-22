@@ -301,7 +301,7 @@ margin-top: -7px;
 .text_string{
   width: 500px;
 }
-@media (max-width:1200px){
+@media only screen and (max-device-width:1200px){
   .block_image{
     padding-left: 40px;
     padding-right: 40px;
@@ -333,7 +333,7 @@ margin-top: -7px;
     margin-left: 115px;
   }
 }
-@media (max-width:992px){
+@media only screen and (max-device-width:992px){
   .block_image{
     padding-left: 40px;
     padding-right: 40px;
@@ -383,7 +383,7 @@ margin-top: -7px;
     width: 24px;
   }
 }
-@media (max-width:660px){
+@media only screen and (max-device-width:660px){
   .block_image{
     padding-left: 40px;
     padding-right: 40px;
