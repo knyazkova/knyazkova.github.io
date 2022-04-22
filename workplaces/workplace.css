@@ -395,6 +395,9 @@ margin-top: -7px;
   .text{
     margin-top: 50px;
   }
+  .title{
+   font-size: 36px;
+  }
   .first_string{
     align-content: center;
     justify-content: center;
