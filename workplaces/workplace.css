@@ -301,7 +301,7 @@ margin-top: -7px;
 .text_string{
   width: 500px;
 }
-@media only screen and(max-width:1200px){
+@media (max-width:1200px){
   .block_image{
     padding-left: 40px;
     padding-right: 40px;
@@ -336,7 +336,7 @@ margin-top: -7px;
     font-size: 10px;
   }
 }
-@media only screen and(max-width:992px){
+@media (max-width:992px){
   .block_image{
     padding-left: 40px;
     padding-right: 40px;
@@ -371,7 +371,7 @@ margin-top: -7px;
     font-size: 10px;
   }
 }
-@media only screen and(max-width:660px){
+@media (max-width:660px){
   .block_image{
     padding-left: 40px;
     padding-right: 40px;
