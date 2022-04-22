@@ -382,6 +382,9 @@ margin-top: -7px;
   .icon1_inst, .icon2_vk, .icon3_locat, .icon4_tel, .icon5_mail{
     width: 24px;
   }
+  .texts_footer_down{
+    margin-top: 50px;
+  }
 }
 @media (max-width:660px){
   .block_image{
@@ -425,5 +428,8 @@ margin-top: -7px;
   }
   .undertitle_rectangle, .undertitle_big_rectangle{
     font-size: 32px;
+  }
+  .texts_footer_down{
+    margin-top: 50px;
   }
 }
