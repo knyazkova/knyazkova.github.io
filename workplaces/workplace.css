@@ -408,4 +408,7 @@ margin-top: -7px;
     .footer{
     font-size: 10px;
   }
+  .text1, .text2, .text3{
+  font-size: 18px;
+  }
 }
