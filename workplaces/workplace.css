@@ -385,9 +385,6 @@ margin-top: -7px;
   .texts_footer_down{
     margin-top: 50px;
   }
-  .general{
-    justify-content: space-around;
-  }
 }
 @media (max-width:660px){
   .block_image{
@@ -434,8 +431,5 @@ margin-top: -7px;
   }
   .texts_footer_down{
     margin-top: 50px;
-  }
-  .general{
-    justify-content: space-around;
   }
 }
