@@ -208,20 +208,26 @@ body{
 .footer{
   width: 100%;
   display: flex;
-  top:0;
+  top:80;
   
   }
+  
+  .line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 180px;
+  }
+  
   .general {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+  margin-top: 20px;
   }
   
   
-  .text1{
-  display: flex;
-  flex-direction: row;
+  .text1, .text2, .text3 {
   font-family: 'Recursive', sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -238,37 +244,55 @@ body{
   color: #BAAEAE;
   width: 359px;
   text-align: left;
-  line-height: 30px;
   }
   
   .icons1_footer {
   margin-top: 40px;
   }
+  
+  .icon1_inst {
+  width: 33px;
+  height: 33px;
+  }
   .icon2_vk {
   margin-left: 20px;
   }
   
-  .icons_3{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-  }
-  .text_locat{
+  .icons_3 {
   display: flex;
-  flex-direction: column;
-  margin-left: 15px;
-  margin-top: 5px;
+  flex-direction: row;
+  align-items: center
+  }
+  
+  .icons_4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+  }
+  
+  .icons_5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+  }
+  
+  .text_locat, .text_tel, .text_mail {
+  margin-left: 20px;
+  
   font-family: 'Recursive', sans-serif;
   font-size: 19px;
   font-weight: 400;
   color: #BAAEAE;
   }
   
-  .Onas{
-  margin-top: 20px;
+  .icons_4, .icons_5 {
+  margin-top: 40px;
   }
-  .text_information{
-  margin-top: 20px;
+  
+  .useful_links {
+  display: flex;
+  flex-direction: column;
+  
   }
   
   .links {
@@ -314,18 +338,33 @@ body{
   .text3_footer_down {
   text-decoration: underline;
   margin-left: 450px;
-  margin-top: -50px;
+  margin-top: -45px;
   }
   
-  .logo_footer1 {
+  .logo_footer {
+  margin-top: -130px;
   float: right;
-  margin-top: -100px;
   }
+  
+  .svyaz {
+  display: flex;
+  flex-direction: column;
+  }
+  
+     
+
+
 .title{
   width: 510px;
 }
 .text_string{
   width: 500px;
+}
+@media only screen and (max-device-width:1500px){
+  .block1_circle_right{
+    position: absolute;
+    right: -114px;
+  }
 }
 @media only screen and (max-device-width:1200px){
   .block1_circle_right{
@@ -364,7 +403,15 @@ body{
   .button{
     margin-left: 115px;
   }
+  .o_nas {
+width: 250px;
+}
 
+.svyaz {
+width: 330px;
+margin-top: -3px;
+margin-left: 65px;
+}
 }
 @media only screen and (max-device-width:660px){
   .block_image{
