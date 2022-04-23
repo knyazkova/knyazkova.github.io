@@ -215,6 +215,9 @@ body{
   background-color: #fff;
   margin-top: 160px;
 }
+.footer{
+  font-size: 19px;
+}
 .general {
   display: flex;
   flex-direction: row;
@@ -230,7 +233,6 @@ body{
 }
 .text_information {
   font-family: 'Recursive', sans-serif;
-  font-size: 19px;
   font-weight: 400;
   color: #BAAEAE;
   width: 359px;
@@ -259,7 +261,6 @@ color: #BAAEAE;
 }
 .footer__link {
 font-family: 'Recursive', sans-serif;
-font-size: 19px;
 font-weight: 400;
 color: #BAAEAE;
 text-decoration: none;
@@ -301,35 +302,9 @@ margin-top: -7px;
   width: 500px;
 }
 @media only screen and (max-device-width:1200px){
-  .block_image{
-    padding-left: 40px;
-    padding-right: 40px;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .block_image_right{
-    padding-left: 40px;
-    padding-right: 40px;
-    flex-direction: column-reverse;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
   .block1_circle_right{
     position: absolute;
     right: -114px;
-  }
-  .text{
-    margin-top: 50px;
-  }
-  .first_string{
-    align-content: center;
-    justify-content: center;
-  }
-  .button{
-    margin-left: 115px;
   }
 }
 @media only screen and (max-device-width:992px){
@@ -363,24 +338,7 @@ margin-top: -7px;
   .button{
     margin-left: 115px;
   }
-  .title{
-    font-size: 36px;
-  }
-  .text_information, .text1_footer_down, .text2_footer_down, .text3_footer_down, .text_locat, .text_tel, .text_mail, .text1__links_footer, .text2__links_footer, .text3__links_footer, .text4__links_footer, .text5__links_footer, .text6__links_footer, .text7__links_footer{
-    font-size: 12px;
-  }
-  .text1, .text2, .text3{
-  font-size: 14px;
-  }
-  .undertitle_rectangle, .undertitle_big_rectangle{
-    font-size: 32px;
-  }
-  .logo_footer{
-    width: 164px;
-  }
-  .icon1_inst, .icon2_vk, .icon3_locat, .icon4_tel, .icon5_mail{
-    width: 24px;
-  }
+
 }
 @media only screen and (max-device-width:660px){
   .block_image{
@@ -416,11 +374,11 @@ margin-top: -7px;
   .button{
     margin-left: 115px;
   }
+  .footer{
+    font-size: 12px;
+  }
   .text1, .text2, .text3{
   font-size: 14px;
-  }
-  .text_information, .text1_footer_down, .text2_footer_down, .text3_footer_down, .text_locat, .text_tel, .text_mail, .text1__links_footer, .text2__links_footer, .text3__links_footer, .text4__links_footer, .text5__links_footer, .text__links_footer{
-    font-size: 12px;
   }
   .undertitle_rectangle, .undertitle_big_rectangle{
     font-size: 32px;
