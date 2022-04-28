@@ -173,6 +173,9 @@ body{
 .other_string{
   margin-top: 25px;
 }
+.number, .number_{
+  font-size: 96px;
+}
 .button{
   background: #6C63FF;
   border-radius: 30px;
